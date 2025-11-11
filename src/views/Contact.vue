@@ -1,10 +1,15 @@
 <template>
   <div>
-    <h1>Contact Page</h1>
-    <router-link to="/">Go to Home</router-link>
+    <h1>Contact Me</h1>
+    <p><strong>Name:</strong> Destiny Lawrence</p>
+    <p><strong>Email:</strong> dlawrence1@my.waketech.edu</p>
+
+    <router-link to="/">Go Back</router-link>
   </div>
 </template>
 
 <script>
-export default { name: "ContactPage" }
+export default {
+  name: 'ContactView'
+}
 </script>
