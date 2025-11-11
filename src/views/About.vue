@@ -1,14 +1,16 @@
 <template>
   <div>
-    <h1>About This Project</h1>
-    <p>This Vue Router project was created for Module 11. It demonstrates navigation and routing with Vue.js.</p>
-
-    <router-link to="/">Go Back</router-link>
+    <h1>About</h1>
+    <p>Welcome! This is the About page of my Module11 SPA.</p>
+    <GoBackButton /> 
   </div>
 </template>
 
 <script>
+import GoBackButton from '../components/GoBackButton.vue'
+
 export default {
-  name: "AboutPage",  
+  name: "AboutPage",
+    components: { GoBackButton }
 }
 </script>

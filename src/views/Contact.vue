@@ -1,15 +1,19 @@
 <template>
   <div>
-    <h1>Contact Me</h1>
-    <p><strong>Name:</strong> Destiny Lawrence</p>
-    <p><strong>Email:</strong> dlawrence1@my.waketech.edu</p>
+    <h1>Contact</h1>
+    <p>Name: Destiny Lawrence</p>
+    <p>Email: ddlawrence1@my.waketech.edu</p>
+    <GoBackButton />
 
-    <router-link to="/">Go Back</router-link>
   </div>
 </template>
 
 <script>
+import GoBackButton from '../components/GoBackButton.vue'
+
+
 export default {
-  name: 'ContactView'
+  name: "ContactPage",
+  components: { GoBackButton }
 }
 </script>

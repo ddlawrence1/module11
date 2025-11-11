@@ -1,14 +1,17 @@
 <template>
   <div>
     <h1>404 - Page Not Found</h1>
-    <p>The page you are looking for does not exist.</p>
+   <GoBackButton />
 
-    <router-link to="/">Go Back to Home</router-link>
   </div>
 </template>
 
 <script>
+import GoBackButton from '../components/GoBackButton.vue'
+
+
 export default {
-  name: 'NotFoundView'
+  name: "NotFound",
+  components: { GoBackButton }
 }
 </script>
